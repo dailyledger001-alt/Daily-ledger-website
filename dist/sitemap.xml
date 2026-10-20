@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Login and signup use https://app.dailyledger.store. Their URLs are in app-sitemap.xml, to publish on the app host. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://dailyledger.store/about</loc></url>
+  <url><loc>https://dailyledger.store/acceptable-use</loc></url>
+  <url><loc>https://dailyledger.store/ai-assistant</loc></url>
+  <url><loc>https://dailyledger.store/contact</loc></url>
+  <url><loc>https://dailyledger.store/cookies</loc></url>
+  <url><loc>https://dailyledger.store/faq</loc></url>
+  <url><loc>https://dailyledger.store/features</loc></url>
+  <url><loc>https://dailyledger.store/how-it-works</loc></url>
+  <url><loc>https://dailyledger.store/</loc></url>
+  <url><loc>https://dailyledger.store/pricing</loc></url>
+  <url><loc>https://dailyledger.store/privacy</loc></url>
+  <url><loc>https://dailyledger.store/refunds</loc></url>
+  <url><loc>https://dailyledger.store/security</loc></url>
+  <url><loc>https://dailyledger.store/terms</loc></url>
+</urlset>

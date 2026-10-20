@@ -1,0 +1,7 @@
+/index.html / 301
+/home / 301
+/pricing/ /pricing 301
+/features/ /features 301
+/ai-assistant/ /ai-assistant 301
+/faq/ /faq 301
+/*/ /:splat 301

@@ -1,0 +1,42 @@
+{
+  "status": "Draft: Free uses the app defaults in the brief; paid allowances and Pro price use the supplied design. Confirm all values against Admin before launch.",
+  "trialDays": 7,
+  "trialCardNote": "Credit card required",
+  "billingNote": "Online checkout is not yet available. Contact our team for paid access. Prices and allowances are pending confirmation against the app\u2019s Admin settings.",
+  "free": {
+    "price": 0,
+    "billing": "forever",
+    "tasks": 3,
+    "habits": 2,
+    "goals": 1,
+    "transactions": 30,
+    "emailRules": "Confirm in app",
+    "reminderEmails": "Confirm in app",
+    "ai": "Not included",
+    "reports": "Subject to plan"
+  },
+  "pro": {
+    "price": 20,
+    "billing": "/ month",
+    "tasks": "Unlimited",
+    "habits": "Unlimited",
+    "goals": "Unlimited",
+    "transactions": "Unlimited",
+    "emailRules": 10,
+    "reminderEmails": 150,
+    "ai": 100,
+    "reports": "Monthly reports and PDF export"
+  },
+  "lifetime": {
+    "price": 100,
+    "billing": "one-time",
+    "tasks": "Unlimited",
+    "habits": "Unlimited",
+    "goals": "Unlimited",
+    "transactions": "Unlimited",
+    "emailRules": 5,
+    "reminderEmails": 60,
+    "ai": 60,
+    "reports": "Monthly reports and PDF export"
+  }
+}

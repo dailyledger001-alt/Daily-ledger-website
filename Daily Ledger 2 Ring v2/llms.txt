@@ -1,0 +1,42 @@
+# Dailyledger
+
+> Daily Ledger is a personal planner for tasks, habits, goals, money, workouts, meals, reminders and reports.
+
+## Official website
+
+https://dailyledger.store
+
+## Public pages
+
+- [About Daily Ledger](https://dailyledger.store/about)
+- [Acceptable Use Policy](https://dailyledger.store/acceptable-use)
+- [AI assistant: plan with your own data](https://dailyledger.store/ai-assistant)
+- [Contact the team](https://dailyledger.store/contact)
+- [Cookie Policy](https://dailyledger.store/cookies)
+- [Frequently asked questions](https://dailyledger.store/faq)
+- [Features for your everyday](https://dailyledger.store/features)
+- [How it works](https://dailyledger.store/how-it-works)
+- [Your routines, all in one place](https://dailyledger.store/)
+- [Pricing that starts at $0](https://dailyledger.store/pricing)
+- [Privacy Policy](https://dailyledger.store/privacy)
+- [Refund & Cancellation](https://dailyledger.store/refunds)
+- [Security and your workspace](https://dailyledger.store/security)
+- [Terms of Service](https://dailyledger.store/terms)
+
+## Account access
+
+- [Login](https://app.dailyledger.store/login): Sign in to the Daily Ledger app.
+- [Sign up](https://app.dailyledger.store/signup): Create a Daily Ledger account.
+- [Forgot password](https://app.dailyledger.store/forgot-password): Recover account access.
+
+## Plans and AI
+
+The Free plan does not require a credit card. The 7-day Pro trial requires a credit card. The AI assistant is a Pro/Lifetime feature; it proposes actions and saves nothing until the user confirms. Current prices and allowances are on the Pricing page and in the app.
+
+## Contact
+
+dailyledger001@gmail.com
+
+## Sitemap
+
+https://dailyledger.store/sitemap.xml

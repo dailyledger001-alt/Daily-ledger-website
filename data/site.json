@@ -1,0 +1,11 @@
+{
+  "businessName": "Dailyledger",
+  "appUrl": "https://app.dailyledger.store",
+  "loginUrl": "https://app.dailyledger.store/login",
+  "signupUrl": "https://app.dailyledger.store/signup",
+  "forgotPasswordUrl": "https://app.dailyledger.store/forgot-password",
+  "siteUrl": "https://dailyledger.store",
+  "supportEmail": "dailyledger001@gmail.com",
+  "privacyEmail": "dailyledger001@gmail.com",
+  "securityEmail": "dailyledger001@gmail.com"
+}
