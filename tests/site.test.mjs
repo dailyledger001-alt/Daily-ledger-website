@@ -6,6 +6,15 @@ const site = JSON.parse(readFileSync('data/site.json'));
 assert.equal(site.signupUrl,'https://app.dailyledger.store/signup');
 assert.equal(site.loginUrl,'https://app.dailyledger.store/login');
 const pages = readdirSync('dist').filter(f => f.endsWith('.html'));
+const vercel = JSON.parse(readFileSync('vercel.json', 'utf8'));
+const staticVercel = JSON.parse(readFileSync('dist/vercel.json', 'utf8'));
+assert.equal(vercel.buildCommand, 'node build.mjs');
+assert.equal(vercel.outputDirectory, 'dist');
+for (const config of [vercel, staticVercel]) {
+  assert.equal(config.cleanUrls, true, 'Vercel must resolve /pricing to pricing.html');
+  assert.equal(config.trailingSlash, false);
+  assert(!config.rewrites, 'Do not mask missing pages with a homepage fallback');
+}
 const sourcePages = readdirSync('src/pages').map(f => readFileSync(join('src/pages', f), 'utf8'));
 const partials = readdirSync('src/partials').map(f => readFileSync(join('src/partials', f), 'utf8'));
 const titles = new Set(), descriptions = new Set();

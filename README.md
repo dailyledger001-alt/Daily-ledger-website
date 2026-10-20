@@ -6,6 +6,8 @@
 
 For a Git-connected Netlify deployment, select this project root. `netlify.toml` already uses build command `node build.mjs` and publish directory `dist`.
 
+For Vercel, import this project root with Framework Preset **Other**. The root `vercel.json` sets the build command, `dist` output and clean URLs. If deploying the already-built `dist/` folder (or the extracted deployment ZIP), keep its included `vercel.json` at the upload root and leave build/output overrides empty. It enables `/pricing`, `/features` and all other extensionless links. Netlify's `_redirects` does not configure Vercel. Redeploy after updating configuration; existing deployments do not change automatically.
+
 ## Folder map
 
 - `dist/` — deploy this folder. Includes generated HTML, assets, sitemap.xml, robots.txt, llms.txt, app-sitemap.xml, manifest, icons, redirects and manual-deploy headers.
