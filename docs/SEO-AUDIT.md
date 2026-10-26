@@ -14,7 +14,7 @@ Canonical domain: https://dailyledger.store
 | /features | Features for your everyday \| Daily Ledger | Explore tasks, habits, goals, finance, workouts, meals, reminders, reports, Calendar and search in one Daily Ledger workspace. | 41 | 126 | Yes | Valid JSON |
 | /how-it-works | How it works \| Daily Ledger | Create a free account, add your routines, and track your progress. See how Daily Ledger fits into a regular day. | 27 | 112 | Yes | Valid JSON |
 | / | Your routines, all in one place \| Daily Ledger | Plan tasks, habits, goals, money, workouts and meals in Daily Ledger. Start free or explore a 7-day Pro trial. Credit card required for the trial. | 46 | 146 | Yes | Valid JSON |
-| /pricing | Pricing that starts at $0 \| Daily Ledger | Compare Daily Ledger Free, Pro and Lifetime. Explore a 7-day Pro trial (credit card required), plan allowances and paid-access options. | 40 | 135 | Yes | Valid JSON |
+| /pricing | Pricing that starts at $0 \| Daily Ledger | Compare Daily Ledger Free, Pro at $19.99/month and Lifetime at $99.99 one-time. See features and a 7-day Pro trial; credit card required. | 40 | 137 | Yes | Valid JSON |
 | /privacy | Privacy Policy \| Daily Ledger | Read the Daily Ledger privacy policy, including your rights, responsibilities and how the service works. | 29 | 104 | Yes | Valid JSON |
 | /refunds | Refund &amp; Cancellation \| Daily Ledger | Read the Daily Ledger refund &amp; cancellation, including your rights, responsibilities and how the service works. | 40 | 115 | Yes | Valid JSON |
 | /security | Security and your workspace \| Daily Ledger | Learn about Daily Ledger password hashing, protected sessions, account isolation, verification and responsible vulnerability reporting. | 42 | 135 | Yes | Valid JSON |

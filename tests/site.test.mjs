@@ -122,3 +122,22 @@ for (const file of [...pages, localHome]) {
 }
 assert.equal(readFileSync(join(localFolder,localHome),'utf8'),readFileSync(join(localFolder,'index.html'),'utf8'));
 console.log('All 17 local HTML files passed file:// link, anchor, asset and active-navbar checks.');
+
+// Client-confirmed prices and app screenshot allowances must match on Home and Pricing.
+const plans = JSON.parse(readFileSync('data/plans.json', 'utf8'));
+assert.equal(plans.pro.price, 19.99);
+assert.equal(plans.lifetime.price, 99.99);
+assert.equal(plans.free.emailRules, 0);
+assert.equal(plans.free.reminderEmails, 0);
+for (const file of ['index.html', 'pricing.html']) {
+  const html = readFileSync(join('dist', file), 'utf8');
+  assert(html.includes('$19.99') && html.includes('$99.99'), `${file}: updated prices`);
+  assert(!/Confirm in app|Subject to plan|pending confirmation against/.test(html), `${file}: no obsolete plan placeholders`);
+  const table = html.match(/<table>[\s\S]*?<\/table>/)[0];
+  assert.equal((table.match(/<tr>/g) || []).length, 14, `${file}: all 13 app comparison rows`);
+  for (const label of ['Weekly meal generator', 'Repeating tasks', 'Bills, budgets', 'Current-month CSV only']) assert(table.includes(label));
+  assert(table.includes('<td>0</td><td>10</td><td>20</td>'));
+  assert(table.includes('<td>0</td><td>150</td><td>300</td>'));
+  assert(table.includes('<td>Not included</td><td>100</td><td>60</td>'));
+}
+console.log('Client plan prices, exclusions and all 13 comparison rows passed.');

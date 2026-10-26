@@ -1,8 +1,8 @@
 {
-  "status": "Draft: Free uses the app defaults in the brief; paid allowances and Pro price use the supplied design. Confirm all values against Admin before launch.",
+  "status": "Client-requested marketing prices and Lifetime email allowances; update the app plan configuration to match before launch.",
   "trialDays": 7,
   "trialCardNote": "Credit card required",
-  "billingNote": "Online checkout is not yet available. Contact our team for paid access. Prices and allowances are pending confirmation against the app\u2019s Admin settings.",
+  "billingNote": "Founding access: request Pro or Lifetime in the app. Our team activates paid access, usually within one business day. Online checkout is coming soon. Prices are in USD.",
   "free": {
     "price": 0,
     "billing": "forever",
@@ -10,13 +10,13 @@
     "habits": 2,
     "goals": 1,
     "transactions": 30,
-    "emailRules": "Confirm in app",
-    "reminderEmails": "Confirm in app",
+    "emailRules": 0,
+    "reminderEmails": 0,
     "ai": "Not included",
-    "reports": "Subject to plan"
+    "reports": "Current-month CSV only"
   },
   "pro": {
-    "price": 20,
+    "price": 19.99,
     "billing": "/ month",
     "tasks": "Unlimited",
     "habits": "Unlimited",
@@ -25,18 +25,18 @@
     "emailRules": 10,
     "reminderEmails": 150,
     "ai": 100,
-    "reports": "Monthly reports and PDF export"
+    "reports": "Historical reports and PDF export"
   },
   "lifetime": {
-    "price": 100,
+    "price": 99.99,
     "billing": "one-time",
     "tasks": "Unlimited",
     "habits": "Unlimited",
     "goals": "Unlimited",
     "transactions": "Unlimited",
-    "emailRules": 5,
-    "reminderEmails": 60,
+    "emailRules": 20,
+    "reminderEmails": 300,
     "ai": 60,
-    "reports": "Monthly reports and PDF export"
+    "reports": "Historical reports and PDF export"
   }
 }
